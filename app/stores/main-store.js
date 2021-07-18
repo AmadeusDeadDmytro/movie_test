@@ -18,7 +18,6 @@ class MainStore {
       return [...acc, ...current.results];
     }, []);
   }
-  r;
 
   addMovie(id, movie) {
     this.mainStore.details[id] = {...movie};
